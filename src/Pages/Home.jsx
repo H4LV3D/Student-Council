@@ -11,11 +11,11 @@ function Home() {
           <Navbar />
         </header>
         <div className="flex items-center justify-center flex-col home">
-          <section className="container w-full min-h-screen flex flex-col">
+          <section className="container w-full min-h-screen flex flex-col items-center justify-center">
             <div className="px-6 sm:px-8 py-20 flex flex-col justify-center pt-48 sm:pt-24 lg:mt-48 z-50">
-              <h2 className="text-5xl sm:text-7xl md:text-8xl lg:text-8xl text-start font-sans font-bold md:font-black text-white md:leading-10">
+              <h2 className="text-4xl sm:text-7xl md:text-7xl lg:text-8xl text-start font-sans font-bold md:font-black text-white">
                 <p>Welcome to</p>
-                <p className="mt-3 md:mt-6">Student Affairs.</p>
+                <p className="mt-2 md:mt-4">Student Affairs.</p>
               </h2>
               <hr className="bg-white h-2 my-4 md:my-8 w-1/2 md:w-1/5 rounded-md" />
               <p className="text-white font-raleway font-medium font-Montserrat text-2xl md:text-lg text-start w-full md:w-3/4 xl:w-1/2 my-5 mb-10">
@@ -32,43 +32,39 @@ function Home() {
         </div>
       </div>
       <div className="min-h-screen w-full">
-        <div className="relative min-h-screen bg-blueDeep">
-          <div className="absolute inset-0 flex flex-col items-center justify-center ">
-            <section className="flex items-center lg:pt-0">
-              <div className="container">
-                <div className="w-full flex flex-col md:items-end items-center justify-start mb-8">
-                  <h2 className="text-4xl md:text-6xl text-start font-montserrat font-bold md:font-black text-white mb-4">
-                    About Us
-                  </h2>
-                  <p className="text-white font-light text-center md:text-end text-lg px-6 md:px-0 md:text-2xl md:w-1/2 xl:w-1/2 mr-0">
-                    We are charged with the responsibility of enforcing rules
-                    and regulations on campus in order to fulfil our vision of
-                    raising new generation leader. Their assignment includes
-                    enforcing campus rules and regulations. To fulfil its
-                    mandate, the Unit is divided into three subunits: Admin. &
-                    Special Duties, Residency, and Monitoring, Surveillance &
-                    Security.
-                  </p>
-                </div>
-
-                <div className="w-full flex flex-col items-center md:items-start justify-start mr-0">
-                  <h2 className="text-4xl md:text-6xl font-montserrat font-bold text-white mb-4">
-                    Our Mission
-                  </h2>
-                  <p className="text-white font-light text-center px-6 md:px-0 md:text-start text-lg md:text-2xl md:w-1/2 xl:w-1/2 leading-10 mr-0">
-                    Our core mission is to provide a healthy learning
-                    environment for all students by building special
-                    relationships with them. We do this by examining their on-
-                    and off-campus activities. We champion a holistic interest
-                    in our students’ welfare as we mold them into respectable,
-                    disciplined, studious, and well-mannered eagles ready to
-                    take on the world. We do this by providing student support
-                    services.
-                  </p>
-                </div>
+        <div className="relative min-h-screen bg-blueDeep flex flex-col items-center justify-center">
+          <section className="flex items-center justify-center lg:pt-0">
+            <div className="container flex flex-col items-center justify-center">
+              <div className="w-full flex flex-col lg:items-end items-center justify-start mb-8">
+                <h2 className="text-4xl md:text-6xl text-start font-montserrat font-bold md:font-black text-white mb-4">
+                  About Us
+                </h2>
+                <p className="text-white font-light text-center lg:text-end text-lg px-6 md:px-0 md:text-2xl lg:w-1/2 lg:leading-9">
+                  We are charged with the responsibility of enforcing rules and
+                  regulations on campus in order to fulfil our vision of raising
+                  new generation leader. Their assignment includes enforcing
+                  campus rules and regulations. To fulfil its mandate, the Unit
+                  is divided into three subunits: Admin. & Special Duties,
+                  Residency, and Monitoring, Surveillance & Security.
+                </p>
               </div>
-            </section>
-          </div>
+
+              <div className="w-full flex flex-col items-center lg:items-start justify-start mr-0">
+                <h2 className="text-4xl md:text-6xl font-montserrat font-bold text-white mb-4">
+                  Our Mission
+                </h2>
+                <p className="text-white font-light text-center px-6 md:px-12 lg:px-0 lg:text-start text-lg md:text-2xl lg:w-1/2 lg:leading-9 mr-0">
+                  Our core mission is to provide a healthy learning environment
+                  for all students by building special relationships with them.
+                  We do this by examining their on- and off-campus activities.
+                  We champion a holistic interest in our students’ welfare as we
+                  mold them into respectable, disciplined, studious, and
+                  well-mannered eagles ready to take on the world. We do this by
+                  providing student support services.
+                </p>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
       <div className="min-h-screen w-full">
@@ -79,7 +75,7 @@ function Home() {
                 <h2 className="xl:text-5xl md:text-5xl sm:text-4xl text-3xl font-sans font-black text-blueDeep mb-2">
                   WHO ARE WE?
                 </h2>
-                <p className="text-gray-700 font-light text-center text-2xl md:w-1/2 mb-2">
+                <p className="text-gray-700 font-light text-center text-2xl md:px-12 lg:w-1/2 mb-4">
                   The Students’s Affairs department is responsible for the
                   welfare and general wellbeing of the students of Covenant
                   University.
@@ -105,7 +101,7 @@ function Home() {
                 <h2 className="xl:text-5xl md:text-5xl sm:text-4xl text-3xl font-sans font-black text-white mb-2">
                   WHO DO WE DO?
                 </h2>
-                <p className="text-white font-light text-center text-2xl md:w-1/2 mb-4">
+                <p className="text-white font-light text-center text-2xl lg:w-1/2 md:px-12 mb-4">
                   We support and promote the present and future well-being of
                   students, making them become the Total Graduate in consonance
                   with the Covenant University objectives.

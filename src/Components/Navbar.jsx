@@ -75,6 +75,7 @@ const Navbar = () => {
                     ? "text-blueDeep text-xl"
                     : "text-gray-700 dark:text-white"
                 }`}
+                onClick={() => setIsOpen(!isOpen)}
               >
                 {element.text}
               </p>
