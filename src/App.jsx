@@ -12,6 +12,8 @@ function App() {
       title: element.title,
       heroText: element.heroText,
       sectionText: element.sectionText,
+      color: element.color,
+      bullet: element.sectionBulletList,
     };
   });
 
