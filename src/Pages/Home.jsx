@@ -11,26 +11,25 @@ function Home() {
           <Navbar />
         </header>
         <div className="flex items-center justify-center flex-col home">
-          <div className="absolute top-[12%] px-6 sm:px-8 md:px-12  xl:px-16 w-full z-30 ">
+          <div className="absolute top-[15%] sm:top-[12%] px-6 sm:px-8 md:px-12  xl:px-16 w-full z-40 ">
             <div className="bg-gray-300 w-full lg:w-2/3 xl:w-1/2 mx-auto rounded-lg shadow-xl p-3 flex">
-              <div className="w-[10%] my-auto text-center">
+              <div className="w-[10%] my-auto text-center  hidden md:block">
                 <i class="fas fa-envelope fa-2x fa-fw text-blueDeep"></i>
               </div>
-              <div className="w-[60%]">
+              <div className="md:w-[60%]">
                 <h2 className="text-xl text-blueDeep font-semibold font-raleway">
                   Irespond Scheme
                 </h2>
                 <p className="text-sm font-raleway">
                   Please follow the link to donate
                 </p>
-                <a
-                  link="/irespond"
-                  className="py-2 text-base font-semibold font-raleway text-blueDeep underline md:hidden"
-                >
-                  Donate Now!
+                <a href="/irespond">
+                  <button className="md:hidden bg-gray-300 font-raleway font-bold underline text-base text-blueDeep hover:text-black">
+                    Donate <span className="lg:hidden">Now</span>!
+                  </button>
                 </a>
               </div>
-              <div className="w-[30%] text-end">
+              <div className="w-[30%] text-end hidden md:block">
                 <a href="/irespond">
                   <button className="border border-blueDeep font-raleway font-medium text-xl text-white w-[70%] py-2.5 rounded-md my-auto bg-blueDeep">
                     Donate <span className="lg:hidden">Now</span>!
@@ -45,7 +44,6 @@ function Home() {
                 <p className="mt-2 md:mt-4">
                   Welcome To <br className="hidden md:block" /> Student Affairs.
                 </p>
-                <p></p>
               </h2>
               <hr className="bg-white h-2 my-4 md:my-8 w-1/2 md:w-1/5 rounded-md" />
               <p className="text-white font-medium font-raleway text-2xl md:text-lg text-start w-full md:w-3/4 xl:w-1/2 my-5 mb-10">
