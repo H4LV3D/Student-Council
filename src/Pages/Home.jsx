@@ -24,7 +24,7 @@ function Home() {
                   Please follow the link to donate
                 </p>
                 <a href="/irespond" className="mx-auto">
-                  <button className="md:hidden font-raleway font-medium text-base px-6 sm:px-12 py-2.5 underline rounded-md bg-gray-300 text-blueDeep">
+                  <button className="md:hidden font-raleway font-medium text-base px-6 sm:px-12 py-2.5 underline rounded-md bg-blueDeep text-white">
                     Donate <span className="lg:hidden">Now</span>!
                   </button>
                 </a>
