@@ -41,8 +41,8 @@ function Home({ siteDetails }) {
       <div className="min-h-screen w-full">
         <div className="relative min-h-screen bg-white">
           <div className="absolute inset-0 flex flex-col items-center justify-center ">
-            <section className="container flex items-center lg:pt-0 px-6">
-              <div className="flex flex-col items-center justify-center">
+            <section className="container flex items-center lg:pt-0 px-6 pt-60 sm:pt-6">
+              <div className="flex flex-col items-center justify-center py-20">
                 <h2 className="xl:text-7xl md:text-6xl sm:text-4xl text-3xl font-sans md:font-black text-blueDeep mb-2">
                   WHAT DO WE DO?
                 </h2>
@@ -53,7 +53,7 @@ function Home({ siteDetails }) {
 
                 {siteDetails?.bullet.map((bullet, index) => {
                   return (
-                    <p className="text-gray-700 font-normal font-raleway text-center text-base sm:text-lg md:text-xl lg:text-xl xl:text-xl leading-7 md:leading-10 xl:w-1/2 mt-4 px-6 sm:px-0">
+                    <p className="text-gray-700 font-normal font-raleway text-center text-sm sm:text-lg md:text-xl lg:text-xl xl:text-xl leading-7 md:leading-10 xl:w-1/2 mt-4">
                       {bullet}{" "}
                     </p>
                   );
