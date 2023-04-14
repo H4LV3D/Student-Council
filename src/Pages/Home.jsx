@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import Navbar from "../Components/Navbar";
 import DSA from "../assets/DSA_ANNOUNCEMENT.jpeg";
 import QS from "../assets/UNIVERSITY_RANKING.jpeg";
@@ -81,7 +81,7 @@ function Home() {
                 <h2 className="text-3xl sm:text-4xl md:text-6xl font-raleway font-light sm:font-medium md:font-bold lg:font-black text-start text-white mb-4">
                   Our Mission
                 </h2>
-                <p className="text-white font-light font-raleway text-start sm:text-center text-sm md:px-12 lg:px-0 lg:text-start text-sm sm:text-lg lg:text-2xl lg:w-1/2 lg:leading-9 mr-0">
+                <p className="text-white font-light font-raleway text-start sm:text-center text-sm md:px-12 lg:px-0 lg:text-start sm:text-lg lg:text-2xl lg:w-1/2 lg:leading-9 mr-0">
                   Our core mission is to provide a healthy learning environment
                   for all students by building special relationships with them.
                   We do this by examining their on- and off-campus activities.
